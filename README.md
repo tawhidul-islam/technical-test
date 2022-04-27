@@ -4,9 +4,9 @@ git clone git@github.com:tawhidul-islam/technical-test.git
 
 ## backend server
 
-cd server
+cd server\
 yarn\
-yarn dev\
+yarn dev
 
 ## frontend
 
