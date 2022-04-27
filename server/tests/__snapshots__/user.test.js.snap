@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`users API POST /users --> create user 1`] = `
+Object {
+  "email": "axample@gmail.com",
+  "id": "a05a9c3e-1b17-4dcb-944b-6f54791881d7",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiZW1haWwiOiJheGFtcGxlQGdtYWlsLmNvbSIsImlhdCI6MTY0NDU3NTA1MSwiZXhwIjoxNjQ0NjYxNDUxfQ.2w6gZU5OQQVXEPWM6LjK8Jo1AcNIJ71lKVA56WIJCAc",
+}
+`;

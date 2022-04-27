@@ -1,0 +1,42 @@
+.leftBarLink {
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: var(--main-color);
+  transition: all 0.5s ease;
+  border-radius: 5px;
+  width: 100%;
+  padding: 3px 10px;
+  border: 1px solid var(--main-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .leftBarLink {
+    width: 50%;
+    margin: 12px auto;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .leftBarLink {
+    width: 70%;
+    margin: 12px auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .leftBarLink {
+    width: 100%;
+    margin: 12px auto;
+  }
+}
+
+.leftBarLink:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.active {
+  background-color: var(--main-color);
+  color: #fff;
+}

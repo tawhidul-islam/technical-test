@@ -1,0 +1,40 @@
+{
+  "name": "boomershub-problem-set",
+  "version": "1.0.0",
+  "description": "This is a job exam test solutions set.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahidhiron/boomershub-problem-set.git"
+  },
+  "author": "Jahid Hiron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahidhiron/boomershub-problem-set/issues"
+  },
+  "homepage": "https://github.com/jahidhiron/boomershub-problem-set#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

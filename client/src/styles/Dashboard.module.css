@@ -1,0 +1,9 @@
+.Movement:not(.nohover):hover {
+  background-color: #fcfcfc;
+  color: #bbb;
+}
+
+.CurrentPage {
+  background-color: var(--main-color);
+  color: #fff;
+}
